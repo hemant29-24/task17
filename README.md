@@ -16,8 +16,9 @@ If the second number is zero, the Promise is rejected with an error message.
 Otherwise, the Promise is resolved with the result of the division.
 The resolved Promise is handled using then() and rejected Promise is handled using catch().
 
-## How It Works
-The divide function accepts two numbers.
-If the second number is zero, the Promise is rejected with an error message.
-Otherwise, the Promise is resolved with the result of the division.
-The resolved Promise is handled using then() and rejected Promise is handled using catch().
+## Test Cases
+1. 10 / 2 = 5
+2. 20 / 4 = 5
+3. 15 / 3 = 5
+4. 7 / 2 = 3.5
+5. 10 / 0 = Division by zero is not allowed.
